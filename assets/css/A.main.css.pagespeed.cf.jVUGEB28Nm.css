@@ -482,10 +482,6 @@ p {
     padding: 0;
 }
 
-.navbar-brand img {
-    max-width: 150px;
-}
-
 .navbar-toggler {
     padding: 0;
 }
@@ -812,8 +808,8 @@ p {
 
 .hero-section .hero-content-wrapper h1 {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 65px;
+    font-size: 45px;
+    line-height: 52px;
     color: #051441;
     margin-bottom: 25px;
 }
@@ -821,15 +817,15 @@ p {
 @media only screen and (min-width: 992px) and (max-width: 1199px),
 only screen and (min-width: 1200px) and (max-width: 1399px) {
     .hero-section .hero-content-wrapper h1 {
-        font-size: 45px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 52px;
     }
 }
 
 @media (max-width: 767px) {
     .hero-section .hero-content-wrapper h1 {
-        font-size: 40px;
-        line-height: 52px;
+        font-size: 35px;
+        line-height: 48px;
     }
 }
 
@@ -1017,7 +1013,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .about-section {
     background: #eff2f9;
-    padding: 180px 0;
+    padding: 100px 0;
     position: relative;
 }
 
