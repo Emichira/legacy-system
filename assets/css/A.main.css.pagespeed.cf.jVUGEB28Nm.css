@@ -1938,7 +1938,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 }
 
 .blog-section .single-blog:hover .blog-img img {
-    transform: scale(1.3) rotate(-7deg);
+    transform: scale(1.3) rotate(-1deg);
 }
 
 .blog-section .single-blog:hover .blog-img.blog-img-2 img {
