@@ -1946,7 +1946,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 }
 
 .blog-section .single-blog .blog-content {
-    padding: 0 20px 35px 30px;
+    padding: 0 15px 35px 15px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
