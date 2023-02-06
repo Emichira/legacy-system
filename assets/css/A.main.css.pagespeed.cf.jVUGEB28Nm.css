@@ -2404,6 +2404,36 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     margin-bottom: 35px;
 }
 
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+    padding: 20px 40px;
+    background: #f1f3f6;
+    color: #47536e;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .contact .info i {
+    font-size: 48px;
+    color: #9fb2d8;
+    margin-bottom: 15px;
+  }
+  
+  .contact .info h4 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contact .info p {
+    font-size: 15px;
+  }
+
 .contact-section {
     position: relative;
     z-index: 3;
@@ -2445,7 +2475,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     border-radius: 10px;
     background: #fff;
     margin-bottom: 30px;
-    padding: 20px 30px;
+    padding: 20px 30px 30px 20px;
     transition: all 0.3s ease-out 0s;
 }
 
@@ -2520,10 +2550,9 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .comment-form-wrapper,
 .contact-form-wrapper {
-    padding: 50px 40px;
+    padding: 50px 30px;
     background: #fff;
     border: 1px solid #f4eefb;
-    margin-left: 0;
     border-radius: 10px;
     transition: all 0.3s ease-out 0s;
 }
