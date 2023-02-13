@@ -1013,8 +1013,16 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .about-section {
     background: #eff2f9;
-    padding: 100px 0;
+    padding: 80px 0;
     position: relative;
+}
+
+.about-section .box-style {
+    padding: 20px;
+}
+
+.about-section .box-style:hover {
+    box-shadow: 0 0 3px rgba(55, 99, 235, 0.7);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1344,6 +1352,10 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .process-section .process-img-wrapper .process-img-bottom .img-3 {
     border-radius: 0 0 250px 250px;
+}
+
+.resize {
+    height: 250px;
 }
 
 .pricing-section .pricing-btn ul {
@@ -1733,6 +1745,99 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     width: 40%;
     color: #051441;
     text-transform: uppercase;
+}
+
+/* --------------------------------------
+            TEAM
+----------------------------------------- */
+
+.team .section-title {
+    margin-bottom: 50px
+}
+
+@media only screen and (min-width:768px) and (max-width:991px),
+(max-width:767px) {
+    .team .section-title {
+        margin-bottom: 30px
+    }
+}
+
+.team .single-team {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+    -webkit-transition: all .5s cubic-bezier(.68, -.55, .27, 1.55) 0s;
+    transition: all .5s cubic-bezier(.68, -.55, .27, 1.55) 0s
+}
+
+.team .single-team:hover:hover {
+    -webkit-box-shadow: 0 3px 5px #00000017;
+    box-shadow: 0 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+.team .single-team .image img {
+    width: 100%
+}
+
+.team .single-team .content {
+    padding: 25px 30px 30px;
+    border: 1px solid #eee;
+    border-radius: 0 0 10px 10px
+}
+
+.team .single-team .text h3 a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #081828
+}
+
+.team .single-team .text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #723fe4;
+    display: block;
+    margin-top: 4px
+}
+
+@media only screen and (min-width:768px) and (max-width:991px),
+(max-width:767px) {
+    .team .single-team .text {
+        text-align: center
+    }
+}
+
+.team .single-team .social {
+    display: inline-block;
+    float: right
+}
+
+.team .single-team .social li {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.team .single-team .social li:last-child {
+    margin: 0
+}
+
+.team .single-team .social li a {
+    color: #666
+}
+
+.team .single-team .social li a:hover {
+    color: #723fe4
+}
+
+@media only screen and (min-width:768px) and (max-width:991px),
+(max-width:767px) {
+    .team .single-team .social {
+        float: none;
+        display: block;
+        margin-top: 20px;
+        text-align: center
+    }
 }
 
 .team-section {
@@ -2407,6 +2512,10 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-btn .theme-btn {
+    border: 2px solid white;
+}
+
 .contact .info {
     padding: 20px 40px;
     background: #f1f3f6;
