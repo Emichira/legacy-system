@@ -286,6 +286,9 @@ p {
     font-size: 18px;
 }
 
+/* -----------------------------------------
+            PRELOADER 
+--------------------------------------------*/
 .preloader {
     position: fixed;
     top: 0;
@@ -441,6 +444,13 @@ p {
     to {
         transform: rotate(-130deg);
     }
+}
+
+/* -----------------------------------------
+            NAVBAR SECTION 
+--------------------------------------------*/
+.hait {
+    height: 64px;
 }
 
 .navbar-area {
@@ -1270,6 +1280,9 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     bottom: -55px
 }
 
+.single-head ul {
+    padding: 20px;
+}
 .single-service {
     padding: 40px 30px;
     background-color: #f6f9fc;
