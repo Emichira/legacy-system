@@ -118,7 +118,6 @@ ul,
 ol {
     margin: 0;
     padding: 0;
-    list-style-type: none;
 }
 
 p {
@@ -2147,6 +2146,15 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     background-position: right center;
 }
 
+.blog-section .center {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul {
+    list-style-type: none;
+}
+
 .blog-section .single-blog {
     border-radius: 10px;
     background: #fff;
@@ -3944,8 +3952,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     padding-bottom: 225px;
 }
 
-ul, ol {
-    list-style-type: disc;
+.single-head , .blog-content ul, ol {
     padding: 10px 0 !important;
     padding-left: 20px !important;
 }
