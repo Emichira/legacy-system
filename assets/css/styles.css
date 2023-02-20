@@ -1076,6 +1076,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .about-section .about-img-wrapper img {
     width: 100%;
+    margin-top: 6em;
 }
 
 .about-section .about-img-wrapper .about-experience {
@@ -3165,6 +3166,14 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 
 .footer .footer-widget .footer-contact li p {
     line-height: 35px;
+}
+
+.footer .footer-widget .footer-contact a {
+    color: #6a7c92;
+}
+
+.footer .footer-widget .footer-contact a:hover {
+    color: #3763eb;
 }
 
 .footer .copyright-area {
